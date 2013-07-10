@@ -1,0 +1,25 @@
+{
+    "name": "fourmation/MuneeViewHelpers",
+    "description": "View helpers to concat viewhelpers for use with the meenie/munee library",
+    "keywords": ["meenie/munee", "zend-framework", "zf2"],
+    "homepage": "fourmation/MuneeViewHelpers",
+    "type": "library",
+    "license": "New BSD License",
+    "authors": [
+        {
+            "name": "Ollie Brennan",
+            "email": "github@epicarena.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "autoload": {
+        "psr-0": {
+            "MuneeViewHelpers": "src/"
+        },
+        "classmap": [
+            "./Module.php"
+        ]
+    }
+}
